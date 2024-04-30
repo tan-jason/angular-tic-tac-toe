@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "angular-tic-tac-toe",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}
