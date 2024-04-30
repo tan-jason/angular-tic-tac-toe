@@ -8,7 +8,7 @@ import { MatButtonModule } from '@angular/material/button';
   template: `<button mat-button color="accent" background="contrast">
     {{ value }}
   </button>`,
-  styles: `button {width: 100px; height: 100px; font-size: 50px}`,
+  styles: `button {width: 100px; height: 100px; font-size: 50px;}`,
 })
 export class SquareComponent {
   @Input() value: 'X' | 'O' | null = null;
