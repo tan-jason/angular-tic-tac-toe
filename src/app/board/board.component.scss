@@ -1,8 +1,19 @@
+@import 'https://fonts.googleapis.com/css?family=Finger+Paint:300,400,600,700';
+
 main {
     display: grid;
     grid-template-columns: 100px 100px 100px;
 }
 app-square {
     height: 100px;
-    border: 1px gray solid;
+    border: 2px #9fa8da solid;
+}
+
+button {
+    background-color: #eb9797;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    font-family: "Finger Paint";
 }
